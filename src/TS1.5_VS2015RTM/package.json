@@ -3,6 +3,9 @@
   "name": "ASP.NET",
   "private": true,
   "devDependencies": {
-    "typescript": "^1.5.3"
+    "typescript": "^1.5",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.8.0",
+    "merge": "^1.2.0"
   }
 }

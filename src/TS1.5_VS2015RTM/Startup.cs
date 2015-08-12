@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNet.Builder;
-using Microsoft.AspNet.Http;
 using Microsoft.Framework.DependencyInjection;
 
 namespace TS1._5_VS2015RTM
@@ -12,11 +11,6 @@ namespace TS1._5_VS2015RTM
         public void Configure(IApplicationBuilder app)
         {
             app.UseStaticFiles();
-
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
         }
     }
 }
